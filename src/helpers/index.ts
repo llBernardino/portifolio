@@ -1,0 +1,3 @@
+
+export { getMediaVariation } from './getMediaVariation'
+

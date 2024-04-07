@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
+import {Hero} from './components/pages/index/Hero/index.tsx';
+import {Page} from './components/pages/index/styles.ts';
+import Profile from './components/pages/img/perfil.jpg' 
 function App() {
+  const perfil = () => `url('${Profile}')`
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Page>
+        
+        <Hero name = "Frontend Developer." perfil = {Profile} />
+        
+      </Page>
     </div>
   );
 }
