@@ -1,24 +1,23 @@
 import styled from '@emotion/styled'
-import paper from '../../img/paper.svg'
-const background = () => `url('${paper}')`
 export const Content = styled.div`
 
 `
 
-export const BackgroundHero = styled.div`
+export const BackgroundAbout = styled.div`
   background: no-repeat;
-  background: ${background}; 
+  background-color: black;
   background-size: cover;
   background-position: center;
   min-height: 800px;
   display: flex;
   align-items: center;
 `
-export const Heros = styled.div`
+export const Abouts = styled.div`
   display:flex;
   align-items:start;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
 `
 export const Boxtext = styled.div`
   text-align: left;
@@ -39,23 +38,19 @@ export const SubBox = styled.div`
 `
 
 export const Figure = styled.figure`
-  border: 0.115rem solid #000000;
-  margin: 0;
-  z-index: 1;
-  width: 18.334em;
-  height: 18.67em;
-  position: relative;
 
   @media (max-width: 768px) {
     margin-top:50px;
   }
 `
 export const Img = styled.img`
-  width:300px;
+  width:400px;
   margin-top: -2.435em;
   margin-left: -2.2em;
 `
-
+export const Icon = styled.img`
+ padding:5px;
+`
 export const H1 = styled.h1`
   font-size: 4.4em;
   color: indigo;
@@ -71,6 +66,7 @@ export const Subtext = styled.p`
  margin:10px;
  font-family: Helvetica Neue;
  font-size: 20px;
+ color:white;
 
   @media (max-width: 1049px) {
     font-size: 16px;

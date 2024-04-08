@@ -1,5 +1,6 @@
 
-export interface HeroTypes {
+export interface AboutTypes {
+    htmlicon: string | undefined;
  
   
     data: {
