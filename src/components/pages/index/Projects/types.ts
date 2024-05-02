@@ -1,6 +1,5 @@
 
-export interface AboutTypes {
-    htmlicon: string | undefined;
+export interface ProjectsTypes {
  
   
     data: {
@@ -15,8 +14,6 @@ export interface AboutTypes {
 
     paper:  SVGGElement;
 
-    src:string;
-    _this:string;
-    style:InnerHTML;
+    
   }
  

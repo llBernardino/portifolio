@@ -5,16 +5,17 @@ export const Content = styled.div`
 
 `
 
-export const BackgroundHero = styled.div`
+export const BackgroundProjects = styled.div`
   background: no-repeat;
-  background: ${background}; 
+  // background: ${background}; 
+  background-color:gray;
   background-size: cover;
   background-position: center;
   min-height: 800px;
   display: flex;
   align-items: center;
 `
-export const Heros = styled.div`
+export const Projectss = styled.div`
   display:flex;
   align-items:start;
   justify-content: space-evenly;
@@ -56,12 +57,13 @@ export const Img = styled.img`
   margin-left: -2.2em;
 `
 
-export const H1 = styled.h3`
+export const H1 = styled.h1`
   font-size: 4.4em;
   color: indigo;
   margin: 10px 0px;
   font-weight: bold;
   margin-bottom: 34px;
+  
   font-family: Helvetica Neue;
 
   @media (max-width: 425px) {
