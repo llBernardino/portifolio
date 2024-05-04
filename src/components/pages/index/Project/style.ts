@@ -1,14 +1,12 @@
 
 import styled from '@emotion/styled'
-import oportunize from '../../img/oportunize.jpeg'
 import { keyframes } from "@emotion/react";
-const background = () => `url('${oportunize}')`
 export const Content = styled.div`
 background-color:black;
 `
 export const BackgroundPratas = styled.div`
   background: no-repeat;
-  background: ${background}; 
+
   background-size: cover;
   background-position: center;
   height:175px;
@@ -17,7 +15,6 @@ export const BackgroundPratas = styled.div`
 export const BackgroundProject = styled.div`
 
 `
-
 
 export const H1 = styled.h2`
   font-size: 3.4rem;
@@ -63,6 +60,11 @@ export const Title = styled.p`
 export const Image = styled.img`
   margin:0px auto;
 `
+export const Image1 = styled.img`
+height: 100%;
+width: 100%;
+border-radius: 6px 6px 0px 0px;
+`
 export const Caption = styled.div`
   padding: 10px 15px;
   padding-top: 15px;
@@ -78,6 +80,7 @@ export const Div = styled.div`
 `
 export const Descript = styled.p`
 font-size: 14px;
+min-height: 41px;
 `
 export const ValueDescript= styled.div`
   display:flex;
