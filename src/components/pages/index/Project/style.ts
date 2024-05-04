@@ -32,7 +32,11 @@ export  const Container = styled.div`
   width: 100%;
   max-width:1200px;
   margin: 0 auto;
-s
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 `
 export const Card = styled.article`
   max-width: 220px;

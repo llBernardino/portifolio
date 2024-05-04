@@ -42,22 +42,31 @@ export const Figure = styled.figure`
   border: 0.115rem solid #000000;
   margin: 0;
   z-index: 1;
-  width: 18.334em;
-  height: 18.67em;
+  width: 18.334rem;
+  height: 18.67rem;
   position: relative;
 
   @media (max-width: 768px) {
     margin-top:50px;
+    width: 17.334rem;
+    height: 15.67rem;
   }
 `
 export const Img = styled.img`
   width:300px;
-  margin-top: -2.435em;
-  margin-left: -2.2em;
+  margin-top: -2.435rem;
+  margin-left: -2.2rem;
+
+  @media (max-width: 768px) {
+    margin-top:50px;
+    width: 250px;
+    margin-top: -2.435rem;
+    margin-left: 13px;
+  }
 `
 
 export const H1 = styled.h3`
-  font-size: 4.4em;
+  font-size: 4.4rem;
   color: indigo;
   margin: 10px 0px;
   font-weight: bold;
@@ -65,7 +74,7 @@ export const H1 = styled.h3`
   font-family: Helvetica Neue;
 
   @media (max-width: 425px) {
-    font-size: 3.4em;
+    font-size: 3.4rem;
   }
 `
 export const Subtext = styled.p`
