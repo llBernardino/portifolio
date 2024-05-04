@@ -3,10 +3,10 @@ import styled from '@emotion/styled'
 import { keyframes } from "@emotion/react";
 export const Content = styled.div`
 background-color:black;
+padding: 100px 0px;
 `
 export const BackgroundPratas = styled.div`
   background: no-repeat;
-
   background-size: cover;
   background-position: center;
   height:175px;

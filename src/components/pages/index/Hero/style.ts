@@ -2,7 +2,7 @@ import styled from '@emotion/styled'
 import paper from '../../img/paper.svg'
 const background = () => `url('${paper}')`
 export const Content = styled.div`
-
+  
 `
 
 export const BackgroundHero = styled.div`

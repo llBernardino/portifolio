@@ -21,7 +21,12 @@ import {
             <Abouts>
               <Boxtext>
                 <H1>Technology<br/>Skills</H1>
-                <Subtext><Icon src={htmlicon} alt='HTML'/><Icon src={jsicon} alt='javascript'/><Icon src={reacticon} width='45px' alt='React'/><Icon src={nodeicon}alt='Node Js'/><Icon src={cssicon}alt='Css'/><Icon src={typeicon}alt='TypeScript'width='45px'/></Subtext>
+                <Subtext>
+                  <Icon src={htmlicon} alt='HTML'/>
+                  <Icon src={jsicon} alt='javascript'/>
+                  <Icon src={reacticon} width='45px' alt='React'/>
+                  <Icon src={nodeicon}alt='Node Js'/><Icon src={cssicon}alt='Css'/>
+                  <Icon src={typeicon}alt='TypeScript'width='45px'/></Subtext>
                 <SubBox>
                   <Subtext>Cursando Bacharelado em Ciencia Da Computação | UECE - CE |<br/>Formado Tecnico em Informatica | EEP Jaime Alecar |</Subtext>
                 </SubBox>
