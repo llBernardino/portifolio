@@ -30,7 +30,7 @@ export const Col2 = (props) => {
                     </ValueDescript>
                     <Buttons>
                        <a href={props.github}><button className="glow-on-hover" type="submit">GitHub</button></a> 
-                       <a href={props.online}><button className="glow-on-hover" type="button">Online</button></a> 
+                       <a href={props.Visit}><button className="glow-on-hover" type="button">Visit</button></a> 
                     </Buttons>
                 </Caption>
             </Card>

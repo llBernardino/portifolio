@@ -20,7 +20,7 @@ import Container from '../../../layout/Container/index.tsx';
                 <Subtext>Gosto de criar produtos front-end sólidos e escaláveis ​​com ótimas experiências de usuário.</Subtext>
                 <SubBox>
                   <Subtext>Altamente qualificado em aprimoramento progressivo, sistemas de design e engenharia de UI.</Subtext>
-                  <Subtext>Experiência comprovada na construção de produtos de sucesso para clientes em vários países.</Subtext>
+                  <Subtext>Experiência comprovada na construção de produtos de sucesso para clientes de todo o brasil</Subtext>
                 </SubBox>
               </Boxtext>
               <Figure ><Img src={props.perfil} alt='PERFIL' /></Figure>
