@@ -1,20 +1,11 @@
 
 export interface AboutTypes {
     htmlicon: string | undefined;
- 
-  
-    data: {
-      [k: string]: any
-    }
-    props: {
-      [k: string]: any
-    }
-    name: string;
     
+    name: string;
     perfil: string;
-
     paper:  SVGGElement;
-
+    typeicon:string;
     src:string;
     _this:string;
     style:InnerHTML;

@@ -6,31 +6,26 @@ import {
     Img
   } from './style.ts'
 import Container from '../../../layout/Container/index.tsx';
-
+import '../../../../App.css';
   
-  export const Hero = (props: HeroTypes) => {
-
-    return (
-      <Content>
-        <BackgroundHero>
-          <Container>
-            <Heros>
-              <Boxtext>
-                <H1>Frontend<br/>Developer.</H1>
-                <Subtext>Gosto de criar produtos front-end sólidos e escaláveis ​​com ótimas experiências de usuário.</Subtext>
-                <SubBox>
-                  <Subtext>Altamente qualificado em aprimoramento progressivo, sistemas de design e engenharia de UI.</Subtext>
-                  <Subtext>Experiência comprovada na construção de produtos de sucesso para clientes de todo o brasil</Subtext>
-                </SubBox>
-              </Boxtext>
-              <Figure ><Img src={props.perfil} alt='PERFIL' /></Figure>
-            </Heros>
-          </Container>
-        </BackgroundHero>
+export const Hero = (props: HeroTypes) => {
+  return (
+    <Content>
+      <BackgroundHero>
+        <Container>
+          <Heros>
+            <Boxtext className='select' data-hidden-class="hidden">
+              <H1>Frontend<br/>Developer.</H1>
+              <Subtext>Gosto de criar produtos front-end sólidos e escaláveis ​​com ótimas experiências de usuário.</Subtext>
+              <SubBox>
+                <Subtext>Altamente qualificado em aprimoramento progressivo, sistemas de design e engenharia de UI.</Subtext>
+                <Subtext>Experiência comprovada na construção de produtos de sucesso para clientes de todo o brasil</Subtext>
+              </SubBox>
+            </Boxtext>
+            <Figure className='select' data-hidden-class="hidden2"><Img src={props.perfil} alt='PERFIL' /></Figure>
+          </Heros>
+        </Container>
+      </BackgroundHero>
     </Content>
-      
-    );
-  }
-  export default Hero
-
-
+  );
+}

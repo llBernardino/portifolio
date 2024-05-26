@@ -18,74 +18,30 @@ import bikes from '../../img/bikes2.jpeg'
 import poke from '../../img/poke.jpeg'
 import bem from '../../img/bem.jpeg'
 import car from '../../img/car.jpeg'
-import { Col2 } from './col2.js';
-import { Col3 } from './col3.js';
-export const Project = () => {
+import virtus from '../../img/virtus.png'
 
+export const Project = () => {
   return (
     <Content>
       <BackgroundProject>
           <Container>
               <H1 className="text-center">PROJECTS</H1>
-              <Row className="justify-content-center d-flex w-100">
-                <Col1
-                title={'Site Oportunize'}
-                imagem ={oportunize}
-                descript={'React.js Next.js Emotion Hooks TypeScript '}
-                github = {'https://github.com/llBernardino/Oportunize'}
-                Visit = {'https://oportunize.org'}
-                iconReact ={reacticon} iconTS ={typeicon} iconCss ={cssicon} iconJS ={jsicon}
+              <Row className="justify-content-center d-flex w-100"  data-hidden-class="hidden">
+                <Col1 title={'Site Oportunize'} imagem ={oportunize} descript={'React.js | Next.js | Emotion | Hooks | TypeScript.'} github = {'https://github.com/llBernardino/Oportunize'} Visit = {'https://oportunize.org'} icon1 ={reacticon} icon2 ={typeicon} icon3 ={cssicon} icon4 ={jsicon}
                 />
-                <Col2
-                title={'Site Bicicletas'}
-                imagem={bikes} 
-                descript={'Html5, Css3 , Bootstrap '}
-                github = {'https://github.com/llBernardino/Site_Bicicletas'}
-                Visit = {'https://site-bicicletas.vercel.app'}
-                iconCss ={cssicon}
-                iconHtml ={htmlicon}
-                iconBootstrap ={bootstrap}
-                iconJS ={jsicon}
+                <Col1 title={'Site Bicicletas'} imagem={bikes}  descript={'Html5| Css3 | Bootstrap.'} github = {'https://github.com/llBernardino/Site_Bicicletas'} Visit = {'https://site-bicicletas.vercel.app'} icon1 ={cssicon} icon2 ={htmlicon} icon3 ={bootstrap} icon4 ={jsicon}
                 />
-                <Col2
-                title={'Pokedex'}
-                imagem={poke} 
-                descript={'Integração com API , Html5, Css3 ,Javascript, Bootstrap.'}
-                github = {'https://github.com/llBernardino/Pokedex'}
-                Visit = {'https://pokedex-eta-henna.vercel.app'}
-                iconCss ={cssicon}
-                iconHtml ={htmlicon}
-                iconBootstrap ={bootstrap}
-                iconJS ={jsicon}
+                <Col1 title={'Pokedex'} imagem={poke}  descript={'Integração com API | Html5| Css3 | Javascript | Bootstrap.'} github = {'https://github.com/llBernardino/Pokedex'} Visit = {'https://pokedex-eta-henna.vercel.app'} icon1 ={cssicon} icon2 ={htmlicon} icon3 ={bootstrap} icon4 ={jsicon}
                 /> 
-                <Col3
-                title={'Carrinho Compras'}
-                imagem={car} 
-                descript={'Integração com API , Html5, Css3 ,Javascript, React.'}
-                github = {'https://github.com/llBernardino/projeto-carrinhos-de-compras-react'}
-                Visit = {'https://projeto-carrinhos-de-compras-react.vercel.app'}
-                iconCss ={cssicon}
-                iconHtml ={htmlicon}
-                iconJS ={jsicon}
-                iconReact ={reacticon}
+                <Col1 title={'Carrinho Compras'} imagem={car}  descript={'Integração com API | Html5| Css3 | Javascript | React.'} github = {'https://github.com/llBernardino/projeto-carrinhos-de-compras-react'} Visit = {'https://projeto-carrinhos-de-compras-react.vercel.app'} icon1 ={cssicon} icon2 ={htmlicon} icon3 ={reacticon} icon4 ={jsicon}
                 /> 
-                <Col2
-                title={'Site Bem Viver'}
-                imagem={bem} 
-                descript={'Html5, Css3 , Bootstrap '}
-                github = {'https://github.com/llBernardino/Bem_Viver_Landing_Page'}
-                Visit = {''}
-                iconCss ={cssicon}
-                iconHtml ={htmlicon}
-                iconBootstrap ={bootstrap}
-                iconJS ={jsicon}
+                <Col1 title={'Virtus Ocupaccional'} imagem ={virtus} descript={'React.js | TypeScript | Material Ui.'} github = {'https://github.com/llBernardino/Virtus-Ocupacionall'} Visit = {'https://virtus-ocupacionall.vercel.app/pagina-inicial'} icon1 ={reacticon} icon2 ={typeicon} icon3 ={cssicon} icon4 ={jsicon}
+                />
+                <Col1  title={'Site Bem Viver'} imagem={bem}  descript={'Html5| Css3 | Bootstrap. '} github = {'https://github.com/llBernardino/Bem_Viver_Landing_Page'} Visit = {''} icon1 ={cssicon} icon2 ={htmlicon} icon3 ={bootstrap} icon4 ={jsicon}
                 />
               </Row>
             </Container>
       </BackgroundProject>
     </Content>
-    
   );
 }
-export default Project
-

@@ -13,7 +13,6 @@ const zoom = keyframes`
     transform: scale(1);
   }
 `;
-
 export const BackgroundAbout = styled.div`
   background: no-repeat;
   background-color:black;
@@ -47,9 +46,7 @@ export const SubBox = styled.div`
     margin-top:50px;
   }
 `
-
 export const Figure = styled.figure`
-
   @media (max-width: 768px) {
     margin-top:50px;
   }
@@ -65,15 +62,12 @@ export const Img = styled.img`
 export const Icon = styled.img`
  padding:10px;
  animation: ${zoom} 1.5s infinite alternate;
-
 `
 export const Script = styled.figure`
-
   @media (max-width: 768px) {
     margin-top:50px;
   }
 `
-
 export const H1 = styled.h1`
   font-size: 4.4em;
   color: darkorange;
