@@ -21,7 +21,7 @@ export const myObserver = new IntersectionObserver((entries) => {
         const element = entry.target as HTMLElement;
         if (entry.isIntersecting) {
             element.classList.add('show');
-            element.classList.remove('hidden', 'hidden2'); // Remove ambas as classes de hidden, se existirem
+            element.classList.remove('hidden', 'hidden'); // Remove ambas as classes de hidden, se existirem
         } else {
             element.classList.remove('show');
             // Verifica o atributo de dados para determinar qual classe hidden aplicar

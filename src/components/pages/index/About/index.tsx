@@ -14,14 +14,14 @@ export const About = (props: AboutTypes) => {
       <BackgroundAbout>
         <Container>
           <Abouts>
-            <Boxtext className='select' data-hidden-class="hidden2">
+            <Boxtext className='select' data-hidden-class="hidden">
               <H1>Technology<br/>Skills</H1>
               <Subtext>
-                <Icon src={reacticon} width='50px' alt='React'/>
+                <Icon src={reacticon} width='55px' alt='React'/>
                 <Icon src={jsicon} alt='javascript'/>
                 <Icon src={htmlicon} alt='HTML'/>
                 <Icon src={nodeicon}alt='Node Js'/><Icon src={cssicon}alt='Css'/>
-                <Icon src={typeicon}alt='TypeScript'width='45px'/></Subtext>
+                <Icon src={typeicon}alt='TypeScript'width='55px'/></Subtext>
               <SubBox>
                 <Subtext>Cursando Bacharelado em Ciencia Da Computação | UECE - CE |<br/>Formado Tecnico em Informatica | EEP Jaime Alecar |</Subtext>
               </SubBox>
