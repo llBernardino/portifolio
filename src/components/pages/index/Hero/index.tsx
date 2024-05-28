@@ -22,7 +22,7 @@ export const Hero = (props: HeroTypes) => {
                 <Subtext>Experiência comprovada na construção de produtos de sucesso para clientes de todo o brasil</Subtext>
               </SubBox>
             </Boxtext>
-            <Figure className='select' data-hidden-class="hidden"><Img src={props.perfil} alt='PERFIL' /></Figure>
+            <Figure className='select' data-hidden-class="hidden2"><Img src={props.perfil} alt='PERFIL' /></Figure>
           </Heros>
         </Container>
       </BackgroundHero>
