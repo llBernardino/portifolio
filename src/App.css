@@ -22,3 +22,18 @@
   perspective: none;
 }
 
+body:before, body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background: url('./components/pages/img/bgdesktop.jpg') no-repeat center / cover;
+  z-index: -1;
+}
+
+body:after {
+  transform: scaleY(-1);
+  top: 100vh;
+}

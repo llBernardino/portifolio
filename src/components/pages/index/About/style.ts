@@ -15,7 +15,6 @@ const zoom = keyframes`
 `;
 export const BackgroundAbout = styled.div`
   background: no-repeat;
-  background-color:black;
   background-size: cover;
   background-position: center;
   display: flex;

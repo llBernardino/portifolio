@@ -17,6 +17,7 @@ import oportunize from '../../img/oportunize2.jpeg'
 import bikes from '../../img/bikes2.jpeg'
 import poke from '../../img/poke.jpeg'
 import bem from '../../img/bem.jpeg'
+import prata from '../../img/prata.jpg'
 import car from '../../img/car.jpeg'
 import virtus from '../../img/virtus.png'
 
@@ -31,7 +32,9 @@ export const Project = () => {
                 />
                 <Col1 title={'Virtus Ocupaccional'} imagem ={virtus} descript={'React.js | TypeScript | Material Ui.'} github = {'https://github.com/llBernardino/Virtus-Ocupacionall'} Visit = {'https://virtus-ocupacionall.vercel.app/pagina-inicial'} icon1 ={reacticon} icon2 ={typeicon} icon3 ={cssicon} icon4 ={jsicon}
                 />
-                <Col1 title={'Site Bicicletas'} imagem={bikes}  descript={'Html5| Css3 | Bootstrap.'} github = {'https://github.com/llBernardino/Site_Bicicletas'} Visit = {'https://site-bicicletas.vercel.app'} icon1 ={cssicon} icon2 ={htmlicon} icon3 ={bootstrap} icon4 ={jsicon}
+                <Col1  title={'Prata da gata'} imagem={prata}  descript={' EM DESENVOLVIMENTO. '} github = {'https://github.com/llBernardino/Bem_Viver_Landing_Page'} Visit = {''} icon1 ={reacticon} icon2 ={jsicon} icon3 ={cssicon} icon4 ={bootstrap}
+                />
+                <Col1 title={'Site Bicicletas'} imagem={bikes}  descript={'Html5| Css3 | Bootstrap.'} github = {'https://github.com/llBernardino/Site_Bicicletas'} Visit = {'https://site-bicicletas.vercel.app'} icon1 ={htmlicon} icon2 ={cssicon} icon3 ={bootstrap} icon4 ={jsicon}
                 />
                 <Col1 title={'Pokedex'} imagem={poke}  descript={'Integração com API | Html5| Css3 | Javascript | Bootstrap.'} github = {'https://github.com/llBernardino/Pokedex'} Visit = {'https://pokedex-eta-henna.vercel.app'} icon1 ={cssicon} icon2 ={htmlicon} icon3 ={bootstrap} icon4 ={jsicon}
                 /> 

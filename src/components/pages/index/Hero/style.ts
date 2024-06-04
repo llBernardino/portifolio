@@ -1,13 +1,10 @@
 import styled from '@emotion/styled'
-import paper from '../../img/paper.svg'
-const background = () => `url('${paper}')`
+
 export const Content = styled.div`
   
 `
-
 export const BackgroundHero = styled.div`
   background: no-repeat;
-  background: ${background}; 
   background-size: cover;
   background-position: center;
   min-height: 800px;
@@ -67,7 +64,7 @@ export const Img = styled.img`
 
 export const H1 = styled.h3`
   font-size: 4.4rem;
-  color: indigo;
+  color: white;
   margin: 10px 0px;
   font-weight: bold;
   margin-bottom: 34px;
@@ -81,7 +78,7 @@ export const Subtext = styled.p`
  margin:10px;
  font-family: Helvetica Neue;
  font-size: 20px;
-
+  color:white;
   @media (max-width: 1049px) {
     font-size: 16px;
   }

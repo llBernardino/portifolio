@@ -1,6 +1,5 @@
 import styled from '@emotion/styled'
 export const Content = styled.div`
-background-color:black;
 padding: 100px 0px;
 `
 export const BackgroundPratas = styled.div`
