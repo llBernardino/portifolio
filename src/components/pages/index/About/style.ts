@@ -69,7 +69,7 @@ export const Script = styled.figure`
 `
 export const H1 = styled.h1`
   font-size: 4.4em;
-  color: darkorange;
+  color: white;
   margin: 10px 0px;
   margin-bottom: 34px;
   font-weight: bold;

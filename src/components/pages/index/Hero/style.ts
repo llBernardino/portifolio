@@ -76,9 +76,9 @@ export const H1 = styled.h3`
 `
 export const Subtext = styled.p`
  margin:10px;
- font-family: Helvetica Neue;
+ font-family: "Poppins", sans-serif;
  font-size: 20px;
-  color:white;
+  color:#afacac;
   @media (max-width: 1049px) {
     font-size: 16px;
   }

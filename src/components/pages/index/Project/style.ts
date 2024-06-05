@@ -13,7 +13,7 @@ export const BackgroundProject = styled.div`
 `
 export const H1 = styled.h2`
   font-size: 3.4rem;
-  color: darkorange;
+  color:white;
   padding-top:10px;
   font-weight: bold;
   font-family: Helvetica Neue;
