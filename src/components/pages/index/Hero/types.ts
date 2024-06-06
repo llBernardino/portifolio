@@ -13,7 +13,7 @@ export interface HeroTypes {
     perfil: string;
 
     paper:  SVGGElement;
-
+    target: LinkStyle;
     
   }
  

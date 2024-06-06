@@ -28,7 +28,7 @@ export const Boxtext = styled.div`
 export const SubBox = styled.div`
   justify-content: space-evenly;
   display:flex;
-  margin-top: 150px;
+  margin-top: 100px;
 
   @media (max-width: 768px) {
     margin-top:50px;
@@ -85,4 +85,8 @@ export const Subtext = styled.p`
   @media (max-width: 425px) {
     font-size: 14px;
   }
+`
+
+export const Contacts = styled.figure`
+ margin:0px;
 `

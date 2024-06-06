@@ -3,7 +3,7 @@ import { HeroTypes } from './types'
 import {
     Content,BackgroundHero, Boxtext, Figure, H1, Subtext,Heros,
     SubBox,
-    Img
+    Img,Contacts
   } from './style.ts'
 import Container from '../../../layout/Container/index.tsx';
 import '../../../../App.css';
@@ -21,6 +21,11 @@ export const Hero = (props: HeroTypes) => {
                 <Subtext>Altamente qualificado em aprimoramento progressivo, sistemas de design e engenharia de UI.</Subtext>
                 <Subtext>Experiência comprovada na construção de produtos de sucesso para clientes de todo o brasil</Subtext>
               </SubBox>
+              <Contacts className='mt-4'>
+                <a className='mx-2 ' href="https://www.linkedin.com/in/cauã-bernardino-lima-73413b22a/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+                <a className='mx-2 ' href = "mailto:cauaberrnardinolima@gmail.com" target="_blank" ><img src="https://img.shields.io/badge/Gmail-white?style=for-the-badge&logo=gmail&logoColor=red" /></a>
+                <a className='mx-2 ' href="https://contate.me/devcaua" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+              </Contacts>
             </Boxtext>
             <Figure className='select' data-hidden-class="hidden"><Img src={props.perfil} alt='PERFIL' /></Figure>
           </Heros>
