@@ -24,8 +24,8 @@ export const Col1 = (props) => {
                         </Figure>
                     </ValueDescript>
                     <Buttons>
-                        <a href={props.github}><button className="glow-on-hover" type="submit">GitHub</button></a> 
-                        <a href={props.Visit}><button className="glow-on-hover" type="button">Visit</button></a> 
+                        <a target="_blank"  rel='noreferrer' href={props.github}><button className="glow-on-hover" type="submit">GitHub</button></a> 
+                        <a target="_blank"  rel='noreferrer' href={props.Visit}><button className="glow-on-hover" type="button">Visit</button></a> 
                     </Buttons>
                 </Caption>
             </Card>

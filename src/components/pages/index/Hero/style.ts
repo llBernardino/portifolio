@@ -78,6 +78,7 @@ export const Subtext = styled.p`
  margin:10px;
  font-family: "Poppins", sans-serif;
  font-size: 20px;
+ margin-left: 0px;
   color:#afacac;
   @media (max-width: 1049px) {
     font-size: 16px;
