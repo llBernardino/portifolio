@@ -91,3 +91,6 @@ export const Subtext = styled.p`
 export const Contacts = styled.figure`
  margin:0px;
 `
+export const Figurebox = styled.div`
+
+`

@@ -1,5 +1,5 @@
 import './App.css';
-import {Hero} from './components/pages/index/Hero/index.tsx';
+import { Hero } from './components/pages/index/Hero/Hero.tsx';
 import {About} from './components/pages/index/About/index.tsx';
 import {Page} from './components/pages/index/styles.ts';
 import Profile from './components/pages/img/perfil.jpg'

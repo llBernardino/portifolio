@@ -10,7 +10,7 @@ export const Col1 = (props) => {
         <Col lg={3} md={6} sm={12}  className="justify-content-center d-flex my-5 select">
             <Card>
                 <BackgroundPratas>
-                    <Image1 src={props.imagem}  alt='React' />
+                    <Image1 src={props.imagem}  alt='Projetos' />
                 </BackgroundPratas>
                 <Caption>
                     <Title>{props.title}</Title>
