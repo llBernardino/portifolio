@@ -5,7 +5,7 @@ import {Page} from './components/pages/index/styles.ts';
 import Profile from './components/pages/img/perfil.jpg'
 import pcanime from './components/pages/img/pcanime.gif'  
 import {Project} from './components/pages/index/Project/index.js';
-
+import { Analytics } from "@vercel/analytics/react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './animations/animations.ts';
 
@@ -16,6 +16,7 @@ export const App = () => {
         <Hero name = "Frontend Developer." perfil = {Profile} />
         <About name = "Frontend Developer." perfil = {pcanime} />
         <Project />
+        <Analytics />
       </Page>
     </div>
   );

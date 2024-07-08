@@ -31,7 +31,7 @@ export const Hero = (props: HeroTypes) => {
             </Boxtext>
             <Box sx={{ display: 'flex', flexDirection: 'column', }}>
               <Figure className='select' data-hidden-class="hidden"><Img src={props.perfil} alt='PERFIL' /></Figure>
-              <Box className="text-box" sx={{ marginLeft: '60px', marginTop: '60px', fontWeight: 'bold' }}>
+              <Box  className='select text-box' data-hidden-class="hidden" sx={{ marginLeft: '60px', marginTop: '60px', fontWeight: 'bold' }}>
                 <a href="/CurriculoDev.pdf" download='CurriculoDev.pdf'><button className="glow-on-hover1" type="button">DOWNLOAD CV</button></a>
               </Box>
             </Box>
