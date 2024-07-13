@@ -9,7 +9,8 @@ import Container from '../../../layout/Container/index.tsx';
 import Box from '@mui/material/Box';
 
 
-export const Hero = (props: HeroTypes) => {
+export const Hero = (props: HeroTypes, ) => {
+  
   return (
     <Content>
       <BackgroundHero>
@@ -17,10 +18,10 @@ export const Hero = (props: HeroTypes) => {
           <Heros>
             <Boxtext className='select' data-hidden-class="hidden">
               <H1>Frontend<br />Developer.</H1>
-              <Subtext>Gosto de criar produtos front-end sólidos e escaláveis ​​com ótimas experiências de usuário.</Subtext>
+              <Subtext>{props.title}</Subtext>
               <SubBox>
-                <Subtext>Altamente qualificado em aprimoramento progressivo, sistemas de design e engenharia de UI.</Subtext>
-                <Subtext>Experiência comprovada na construção de produtos de sucesso para clientes de todo o Brasil.</Subtext>
+                <Subtext>{props.textoone}</Subtext>
+                <Subtext>{props.textotwo}</Subtext>
               </SubBox>
               <Contacts className='mt-4'>
                 <a className='mx-2' href="https://www.linkedin.com/in/cauã-bernardino-lima-73413b22a/" rel='noreferrer' target="_blank"><img className='mt-2' alt='LinkedIn' src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>

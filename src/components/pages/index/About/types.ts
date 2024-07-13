@@ -9,5 +9,7 @@ export interface AboutTypes {
     src:string;
     _this:string;
     style:InnerHTML;
+    textfaculdade: string;
+    textcurso: string;
   }
  

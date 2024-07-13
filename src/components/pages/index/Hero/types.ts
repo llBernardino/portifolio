@@ -8,8 +8,11 @@ export interface HeroTypes {
     props: {
       [k: string]: any
     }
+   
     name: string;
-    
+    title: string;
+    textoone: string;
+    textotwo: string;
     perfil: string;
 
     paper:  SVGGElement;

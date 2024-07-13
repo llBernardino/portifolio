@@ -23,7 +23,7 @@ export const About = (props: AboutTypes) => {
                 <Icon src={nodeicon}alt='Node Js'/><Icon src={cssicon}alt='Css'/>
                 <Icon src={typeicon}alt='TypeScript'width='55px'/></Subtext>
               <SubBox>
-                <Subtext>Cursando Bacharelado em Ciencia Da Computação | UECE - CE |<br/>Formado Tecnico em Informatica | EEP Jaime Alecar |</Subtext>
+                <Subtext>{props.textfaculdade}<br/>{props.textcurso}</Subtext>
               </SubBox>
             </Boxtext>
             <Figure className='select' data-hidden-class="hidden" ><Img src={props.perfil} alt='PERFIL' /></Figure>
