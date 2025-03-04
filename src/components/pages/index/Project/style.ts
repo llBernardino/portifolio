@@ -59,11 +59,12 @@ export const Image = styled.img`
   margin: 0px auto;
 `;
 export const Image1 = styled.img`
-  height: 100%;
   width: 100%;
-  background: contain;
+  height: 100%;
+  object-fit: cover;
   border-radius: 6px 6px 0px 0px;
 `;
+
 export const Caption = styled.div`
   padding: 10px 15px;
   padding-top: 15px;
